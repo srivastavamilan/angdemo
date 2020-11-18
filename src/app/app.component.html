@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="row">
+    <h1>HAVE A QUESTION? WE CAN HELP</h1>
+    <app-question *ngFor="let item of faqsList">
+      <app-question-item id={{item.id}} title={{item.question}}>
+        {{item.answer}}
+      </app-question-item>
+    </app-question>
+  </div>
+</div>

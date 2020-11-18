@@ -1,0 +1,20 @@
+<div class="acc-header"(click)="toggle()">
+    <div class="headerTitle">
+        <div class="question">
+            Q{{id}}
+        </div>
+        <div>
+            {{title}}
+        </div>
+    </div>
+    
+    <div [@rotatedState]="!showBody? 'default': 'rotated'" id= "arrow" class="arrow"><i class="ion-ios-arrow-down"></i></div>
+    
+</div>
+<div [@smoothCollapse]="!showBody? 'initial': 'final'">
+    <div class="acc-body">
+        <ng-content></ng-content>
+    </div>
+
+</div>
+

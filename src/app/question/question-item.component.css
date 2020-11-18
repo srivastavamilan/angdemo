@@ -1,0 +1,42 @@
+@import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
+
+.acc-header {
+    background-color:#ffffff;
+    min-height: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color:#000000;
+    border-bottom: 5px solid black;
+}
+
+
+.headerTitle {
+    overflow-wrap: break-word;
+    overflow: auto;
+    width: 100%;
+}
+
+.acc-body {
+    min-height: 40px;
+    padding: 10px;
+    display: flex;
+    line-height: 1.5rem;
+    border-bottom: black 5px solid;
+}
+
+.arrow {
+    font-size: 29px;
+    background-color:#FFF222;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.question {
+    float: left;
+    margin-right: 25px;
+}
+
+
